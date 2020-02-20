@@ -75,9 +75,10 @@ nav li {
     float: left;
     height: 100%;
     width: 90%;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 30px;
 }
+
 section a {
     text-decoration: none;
     color: white;
@@ -88,74 +89,76 @@ section a {
     margin: 0;
     padding: 0 0 0 30px;
     text-transform: uppercase;
+    line-break: auto;
 }
 
 .main li {
     display: inline-block;
     padding-left: 30px;
     color: white;
+    padding-top: 30px;
 }
 
-section .dust2 {
-    background-image: url("images/de_dust2_thumbnail.jpg");
-    background-size: 70%;
-    background-repeat: no-repeat;
-    height: 540px;
-    width: 304px;
-    text-indent: -7000000px;
-}
-
-section .inferno {
-    background-image: url("images/de_inferno_thumbnail.jpg");
-    background-size: 50%;
+#dust2 a {
     height: 540px;
     width: 304px;
     background-repeat: no-repeat;
-    text-indent: -70000000px;
 }
 
-section .mirage {
-    background-image: url("images/de_mirage_thumbnail.jpg");
-    background-size: 50%;
+#inferno a {
+    height: 540px;
+    width: 304px;
+    background-repeat: no-repeat;
+}
+
+#mirage a {
     height: 540px;
     width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
-section .cache {
-    background-image: url("images/de_cache_thumbnail.jpg");
-    background-size: 50%;
+#cache a {
     height: 540px;
     width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
-section .overpass {
-    background-image: url("images/de_overpass_thumbnail.jpg");
-    background-size: 50%;
+#overpass a {
     height: 540px;
     width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
-section .nuke {
-    background-image: url("images/de_nuke_thumbnail.jpg");
-    background-size: 50%;
+#nuke a {
     height: 540px;
     width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
-section .vertigo {
-    background-image: url("images/de_vertigo_thumbnail.jpg");
-    background-size: 50%;
+#vertigo a {
     height: 540px;
     width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
+/** MEDIA CONTROL **/ 
+@media screen and (max-width: 1515px) {
+    .side {
+        width: 0;
+        height: 0;
+    }
+    .side li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 604) {
+    #contact {
+        display: none;
+    }
+}
