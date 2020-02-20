@@ -1,5 +1,5 @@
 body {
-    background-color: #0E0E0E;
+    background-color: #0e0e0e;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     margin: 0;
@@ -19,10 +19,6 @@ header a {
     text-transform: uppercase;
     color: white;
     padding-top: 70px;
-}
-
-header .mobile a {
-    display: none;
 }
 
 header .logo a {
@@ -45,16 +41,16 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 2%;
+    margin-left: 1%;
 }
 
 /* SECTION SIDE */
 .side {
     float: left;
-    width: 10%;
-    height: 95%;
-    background: black;
+    width: 8%;
+    height: 500px;
+    background: #061635;
     padding-top: 20px;
 }
 
@@ -66,16 +62,21 @@ nav li {
 
 .side li {
     text-align: left;
-    padding: 0 0 10px 20px;
+    padding: 10px 0 10px 20px;
+}
+
+.maps a {
+    color: #ffa200;
 }
 
 /* SECTION MAIN */
 .main {
     background: #0E0E0E;
     float: left;
-    height: 95%;
+    height: 100%;
     width: 90%;
-    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 section a {
     text-decoration: none;
@@ -85,31 +86,76 @@ section a {
 .main ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 30px;
     text-transform: uppercase;
 }
 
 .main li {
     display: inline-block;
-    margin-right: 30px;
     padding-left: 30px;
-    margin-top: 10px;
     color: white;
 }
 
 section .dust2 {
-    background-image: url("images/de_dust2.jpg");
-    background-size: 100%;
-    height: 500px;
-    width: 500px;
+    background-image: url("images/de_dust2_thumbnail.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    height: 540px;
+    width: 304px;
+    text-indent: -7000000px;
 }
 
-/* FOOTER */ 
-footer {
-    clear: both;
-    position: relative;
-    height: 20px;
-    margin-top: -200px;
-    background: black;
-    padding: 5px;
+section .inferno {
+    background-image: url("images/de_inferno_thumbnail.jpg");
+    background-size: 50%;
+    height: 540px;
+    width: 304px;
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
 }
+
+section .mirage {
+    background-image: url("images/de_mirage_thumbnail.jpg");
+    background-size: 50%;
+    height: 540px;
+    width: 304px;
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+section .cache {
+    background-image: url("images/de_cache_thumbnail.jpg");
+    background-size: 50%;
+    height: 540px;
+    width: 304px;
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+section .overpass {
+    background-image: url("images/de_overpass_thumbnail.jpg");
+    background-size: 50%;
+    height: 540px;
+    width: 304px;
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+section .nuke {
+    background-image: url("images/de_nuke_thumbnail.jpg");
+    background-size: 50%;
+    height: 540px;
+    width: 304px;
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+section .vertigo {
+    background-image: url("images/de_vertigo_thumbnail.jpg");
+    background-size: 50%;
+    height: 540px;
+    width: 304px;
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
