@@ -1,6 +1,6 @@
 body {
     background-color: #0e0e0e;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Roboto",sans-serif;
     color: white;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 /* HEADER */
 header {
     background: #22314e;
-    height: 150px;
+    height: 75px;
     text-align: left;
     font-size: 20px;
 }
@@ -18,7 +18,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    padding-top: 70px;
+    padding-top: 27px;
 }
 
 header .logo a {
@@ -27,8 +27,8 @@ header .logo a {
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-    height: 80px;
-    width: 300px;
+    height: 40px;
+    width: 150px;
     position: relative;
     text-indent: -700000px;
 }
@@ -49,9 +49,14 @@ nav li {
 .side {
     float: left;
     width: 8%;
-    height: 500px;
-    background: #061635;
-    padding-top: 20px;
+    height: 100%;
+    background: #19233a;
+    z-index: 1;
+    top: 1;
+    overflow: hidden;
+    left: 1;
+    position: fixed;
+    font-family: "Roboto",sans-serif;;
 }
 
 .side ul {
@@ -61,12 +66,17 @@ nav li {
 }
 
 .side li {
-    text-align: left;
-    padding: 10px 0 10px 20px;
+    padding: 20px 0 20px 0;
 }
 
 .maps a {
     color: #ffa200;
+    padding: 12% 33% 12% 33%;
+}
+
+.maps a:hover {
+    background-color: #212e4b;
+    border: 1px solid black;
 }
 
 /* SECTION MAIN */
@@ -76,7 +86,7 @@ nav li {
     height: 100%;
     width: 90%;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 8%;
 }
 
 section a {
@@ -97,6 +107,7 @@ section a {
     padding-left: 30px;
     color: white;
     padding-top: 30px;
+    padding-right: 3%;
 }
 
 #dust2 a {
@@ -144,6 +155,18 @@ section a {
     width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
+}
+
+/** INFO **/
+section #about {
+    margin: 25px 0 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about .para {
+    padding-left: 8%;
+    padding-bottom: 1%;
+    padding-right: 5%;
 }
 
 /** MEDIA CONTROL **/ 
