@@ -12,6 +12,9 @@ header {
     height: 75px;
     text-align: left;
     font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 header a {
@@ -56,7 +59,8 @@ nav li {
     overflow: hidden;
     left: 1;
     position: fixed;
-    font-family: "Roboto",sans-serif;;
+    font-family: "Roboto",sans-serif;
+    margin-top: 75px;
 }
 
 .side ul {
@@ -69,12 +73,80 @@ nav li {
     padding: 20px 0 20px 0;
 }
 
-.maps a {
+#dust22 {
     color: #ffa200;
-    padding: 12% 33% 12% 33%;
+    padding: 12% 34% 12% 33%;
+}
+
+#inferno2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
+}
+
+#mirage2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
+}
+
+#cache2 {
+    color: #ffa200;
+    padding: 12% 35% 12% 33%;
+}
+
+#overpass2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
+}
+
+#nuke2 {
+    color: #ffa200;
+    padding: 12% 41% 12% 33%;
+}
+
+#vertigo2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
 }
 
 .maps a:hover {
+    background-color: #212e4b;
+    border: 1px solid black;
+}
+
+/** TOOLBAR **/
+.toolbar {
+    float: left;
+    width: 215px;
+    height: 30px;
+    background: #101624;
+    z-index: 1;
+    top: 1;
+    overflow: hidden;
+    left: 1;
+    position: fixed;
+    font-family: "Roboto",sans-serif;
+    margin-top: 75px;
+    margin-left: 8%;
+}
+
+.toolbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.toolbar li {
+    display: inline-block;
+    padding: 5px 0 0 0;
+}
+
+.mapsymbol a {
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+.toolbar a:hover {
     background-color: #212e4b;
     border: 1px solid black;
 }
@@ -159,13 +231,21 @@ section a {
 
 /** INFO **/
 section #about {
-    margin: 25px 0 0 50px;
     font-family: Arial, Helvetica, sans-serif;
+    background: #0E0E0E;
+    float: left;
+    height: 100%;
+    width: 90%;
+    margin-top: 6%;
+    margin-left: 8%;
+}
+
+#about .aboutme {
+    padding-left: 5%;
 }
 
 #about .para {
-    padding-left: 8%;
-    padding-bottom: 1%;
+    padding-left: 5%;
     padding-right: 5%;
 }
 
@@ -180,8 +260,35 @@ section #about {
     }
 }
 
-@media screen and (max-width: 604) {
-    #contact {
-        display: none;
-    }
+/** MAPS **/ 
+.mapsite {
+    background: #0E0E0E;
+    float: left;
+    height: 100%;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 8%;
+}
+
+#websites {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#websites p {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#websites ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#websites li {
+    margin-left: 50%;
+    top: -350px;
+    position: relative;
+    padding: 10px;
 }
