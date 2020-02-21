@@ -28,21 +28,34 @@
             </ul>
         </section>
         <section class="toolbar">
-            <ul>
-                <li class="mapsymbol"><a href=""><i class="fas fa-map"></i></a></li>
-                <li class="mapsymbol"><a href="">64tick</a></li>
-                <li class="mapsymbol"><a href="">128tick</a></li>
+            <ul id="buttonfilters">
+                <li class="mapsymbol"><i class="fas fa-map"></i></li>
+                <li class="mapsymbol">64tick</li>
+                <li class="mapsymbol">128tick</li>
             </ul>
         </section>
+        <script>
+            document.getElementById('buttonfilters').onclick=function(event) {
+                var target=getEventTarget(event);
+                alert(target.innerHTML);
+              }
+             
+              function getEventTarget(e) {
+                e = e || window.event;
+                return e.target || e.srcElement;
+              }
+              </script>
         <section class="mapsite">
             <div id="websites">
-                <iframe src='https://gfycat.com/ifr/AdolescentForsakenIndianrockpython' frameborder='0' scrolling='no' allowfullscreen width='640' height='321'></iframe>
-                <p>A site smoke for T</p>
-                <ul class="nadeinfo">
-                    <li>Technique: </li>
-                    <li>Tick Rate: </li>
-                    <li></li>
-                </ul>
+                <div id="asmoketd2">
+                    <iframe src='https://gfycat.com/ifr/AdolescentForsakenIndianrockpython' frameborder='0' scrolling='no' allowfullscreen width='640' height='321'></iframe>
+                    <p>A site smoke for T</p>
+                    <ul class="nadeinfo">
+                        <li>Technique: </li>
+                        <li>Tick Rate: </li>
+                        <li></li>
+                    </ul>
+                </div>
                 <iframe src='https://gfycat.com/ifr/AdolescentForsakenIndianrockpython' frameborder='0' scrolling='no' allowfullscreen width='640' height='321'></iframe>
                 <p>A site smoke for T</p>
                 <ul class="nadeinfo">

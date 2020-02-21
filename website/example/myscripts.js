@@ -1,13 +1,10 @@
-function myFunction() {
-    // Get the checkbox
-    var button = document.getElementById("myCheck");
-    // Get the output text
-    var section = document.getElementById("mapsites");
-  
-    // If the checkbox is checked, display the output text
-    if (button.checked == true){
-      section.style.display = "block";
-    } else {
-      section.style.display = "none";
-    }
-}
+document.getElementById('buttonfilters').onclick=function(event) {
+  var target = getEventTarget(event);
+  alert(target.innerHTML);
+};
+
+function getEventTarget(e) {
+  e = e || window.event;
+  return e.target || e.srcElement;
+};
+
