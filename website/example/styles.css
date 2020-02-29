@@ -6,22 +6,20 @@ body {
     padding: 0;
 }
 
+#all {
+    float: left;
+    position: relative;
+}
+
 /* HEADER */
 header {
     background: #22314e;
-    height: 75px;
+    height: 7.5%;
     text-align: left;
-    font-size: 20px;
-    position: fixed;
+    font-size: 120%;
+    position: relative;
     top: 0;
     width: 100%
-}
-
-header a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    padding-top: 27px;
 }
 
 header .logo a {
@@ -34,6 +32,13 @@ header .logo a {
     width: 150px;
     position: relative;
     text-indent: -700000px;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 17%;
 }
 
 nav ul {
@@ -70,7 +75,7 @@ nav li {
 }
 
 .side li {
-    padding: 20px 0 20px 0;
+    padding: 10% 0 10% 0;
 }
 
 #dust22 {
@@ -136,7 +141,7 @@ nav li {
 }
 
 .smokesinfo li {
-    padding: 20px 0 5px 20px;
+    padding: 10% 0 2% 10%;
 }
 
 .smokesinfo a {
@@ -144,7 +149,7 @@ nav li {
 }
 
 #d2tinfo {
-    padding-left: 10px;
+    padding-left: 2%;
     color: wheat;
 }
 
@@ -198,7 +203,7 @@ nav li {
     float: left;
     height: 100%;
     width: 90%;
-    margin-top: 10px;
+    margin-top: 1%;
     margin-left: 8%;
 }
 
@@ -210,62 +215,48 @@ section a {
 .main ul {
     list-style-type: none;
     margin: 0;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 2%;
     text-transform: uppercase;
     line-break: auto;
 }
 
 .main li {
     display: inline-block;
-    padding-left: 30px;
+    padding-left: 2%;
     color: white;
-    padding-top: 100px;
+    padding-top: 6.5%;
     padding-right: 3%;
 }
 
 #dust2 a {
-    height: 540px;
-    width: 304px;
     background-repeat: no-repeat;
 }
 
 #inferno a {
-    height: 540px;
-    width: 304px;
     background-repeat: no-repeat;
 }
 
 #mirage a {
-    height: 540px;
-    width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
 #cache a {
-    height: 540px;
-    width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
 #overpass a {
-    height: 540px;
-    width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
 #nuke a {
-    height: 540px;
-    width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
 
 #vertigo a {
-    height: 540px;
-    width: 304px;
     background-repeat: no-repeat;
     text-indent: -70000000px;
 }
@@ -308,14 +299,22 @@ section #about {
     }
 }
 
+@media screen and (max-width: 1770px) {
+    #dust22 {
+        color: #ffa200;
+        padding: 10% 30% 10% 30%;
+    }
+}
+
 /** MAPS **/ 
 .mapsite {
     background: #0E0E0E;
     float: left;
     height: 100%;
     width: 90%;
-    margin-top: 10px;
-    margin-left: 8%;
+    margin-top: 10%;
+    margin-left: 90%;
+    position: relative;
 }
 
 #websites {
@@ -330,4 +329,3 @@ section #about {
 #websites div {
     padding-bottom: 5%;
 }
-
