@@ -1,0 +1,329 @@
+body {
+    background-color: #0e0e0e;
+    font-family: "Roboto",sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#all {
+    float: left;
+    position: relative;
+}
+
+/* HEADER */
+header {
+    background: #22314e;
+    height: 8%;
+    text-align: left;
+    font-size: 120%;
+    position: fixed;
+    top: 1;
+    width: 100%;
+    float: left;
+    z-index: 1;
+}
+
+header .logo a {
+    background-image: url("images/LOGO2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    text-indent: -700000px;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 17%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+/* SECTION SIDE */
+.side {
+    float: left;
+    width: 8%;
+    height: 100%;
+    background: #19233a;
+    overflow: hidden;
+    position: fixed;
+    font-family: "Roboto",sans-serif;
+    margin-top: 4%;
+}
+
+.side ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side li {
+    padding: 10% 0 10% 0;
+    margin-top: 5%;
+}
+
+#dust22 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
+}
+
+#inferno2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
+}
+
+#mirage2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
+}
+
+#cache2 {
+    color: #ffa200;
+    padding: 12% 35% 12% 33%;
+}
+
+#overpass2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 27%;
+}
+
+#nuke2 {
+    color: #ffa200;
+    padding: 12% 41% 12% 37%;
+}
+
+#vertigo2 {
+    color: #ffa200;
+    padding: 12% 34% 12% 33%;
+}
+
+.maps a:hover {
+    background-color: #212e4b;
+    border: 1px solid black;
+}
+
+/** Smokes Info **/
+.smokesinfo {
+    float: left;
+    width: 10%;
+    height: 100%;
+    background: rgb(36, 36, 36);
+    overflow: hidden;
+    position: fixed;
+    font-family: "Roboto",sans-serif;
+    margin-left: 8%;
+}
+
+.smokesinfo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.smokesinfo li {
+    padding: 10% 0 2% 10%;
+}
+
+.smokesinfo a {
+    color: rgb(207, 207, 207);
+}
+
+#d2tinfo {
+    margin-top: 20%;
+    padding-left: 2%;
+    color: wheat;
+}
+
+#sitesinfo {
+    text-align: center;
+    padding-left: 0;
+    color: tomato;
+}
+
+/** TOOLBAR 
+.toolbar {
+    float: left;
+    width: 215px;
+    height: 30px;
+    background: #101624;
+    z-index: 1;
+    top: 1;
+    overflow: hidden;
+    left: 1;
+    position: fixed;
+    font-family: "Roboto",sans-serif;
+    margin-top: 75px;
+    margin-left: 8%;
+}
+
+.toolbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.toolbar li {
+    display: inline-block;
+    padding: 5px 0 0 0;
+}
+
+.mapsymbol a {
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+.toolbar a:hover {
+    background-color: #212e4b;
+    border: 1px solid black;
+}
+**/
+/* SECTION MAIN */
+.main {
+    background: #0E0E0E;
+    float: left;
+    height: 100%;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}
+
+.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    line-break: auto;
+}
+
+.main li {
+    display: inline-block;
+    padding-left: 2%;
+    color: white;
+    padding-top: 6.5%;
+    padding-right: 0;
+}
+
+#dust2 a {
+    background-repeat: no-repeat;
+}
+
+#inferno a {
+    background-repeat: no-repeat;
+}
+
+#mirage a {
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+#cache a {
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+#overpass a {
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+#nuke a {
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+#vertigo a {
+    background-repeat: no-repeat;
+    text-indent: -70000000px;
+}
+
+/** INFO **/
+section #about {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0E0E0E;
+    float: left;
+    height: 100%;
+    width: 90%;
+    margin-top: 6%;
+    margin-left: 8%;
+    position: relative;
+}
+
+#about .aboutme {
+    padding-left: 5%;
+}
+
+#about .para {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/** MEDIA CONTROL **/ 
+@media screen and (max-width: 1515px) {
+    .side {
+        width: 0;
+        height: 0;
+    }
+    .side li {
+        display: none;
+    }
+    .smokesinfo {
+        width: 0;
+        height: 0;
+    }
+    .smokesinfo li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+    #dust22 {
+        color: #ffa200;
+        padding: 10% 30% 10% 30%;
+    }
+}
+
+/** MAPS **/ 
+.mapsite {
+    background: #0E0E0E;
+    float: left;
+    height: 100%;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 90%;
+    position: relative;
+}
+
+#websites {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#websites p {
+    text-align: center;
+}
+
+#websites div {
+    padding-bottom: 5%;
+}
